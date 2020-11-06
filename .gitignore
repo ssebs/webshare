@@ -2,3 +2,5 @@ venv/
 node_modules/
 .vscode
 __pycache__/
+webshare/files/*
+!webshare/files/.stub

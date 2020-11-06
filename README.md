@@ -14,6 +14,12 @@ Share files via HTTP or via the website
     - Returns: React web app
 
 ## Usage
+- `curl --data-binary @sample.png  http://127.0.0.1:5000/api/upload/sample.png`
+  - `http://localhost:5000/f179df-test.png`
+- `wget http://localhost:5000/f179df-test.png`
+  - `‘f179df-test.png’ saved [2217/2217]`
+
+## Installation
 - Clone this repo
 - `$ cd webshare`
 - `$ python3 -m venv venv`
